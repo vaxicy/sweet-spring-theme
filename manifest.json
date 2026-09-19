@@ -1,6 +1,11 @@
 {
   "manifest_version": 3,
   "version": "1.0",
+  "icons": {
+    "16": "logo/logo16.png",
+    "48": "logo/logo48.png",
+    "128": "logo/logo128.png"
+  },
   "name": "sweet-spring-theme",
   "description": "A soft pastel theme with sweet pink, fresh green, and calming blue tones.",
   "theme": {

@@ -28,4 +28,4 @@ The Google logo and shortcut icons on the new tab page are tinted automatically 
 
 ## License
 
-Non-Commercial License. Free to use and share for personal, non-commercial purposes.
+Non-Commercial License. Licensed for personal, non-commercial use; sharing with attribution is welcome.
