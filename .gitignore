@@ -3,3 +3,6 @@ Cached Theme.pak
 
 # 本地工作记忆
 .codebuddy/
+
+# 打包产物（复制到默认文件夹后不再入库）
+*.zip
