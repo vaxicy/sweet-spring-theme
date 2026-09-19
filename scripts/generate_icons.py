@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Resize the chosen blossom candidate into 16/48/128 theme icons (logo/)."""
+"""Resize the chosen blossom candidate into the 128px theme icon (logo/).
+
+Chrome themes only use the 128px icon, so no other sizes are generated.
+"""
 import os
 from PIL import Image
 
@@ -10,7 +13,7 @@ os.makedirs(OUT_DIR, exist_ok=True)
 
 with Image.open(SRC) as img:
     assert img.size == (512, 512), f"source must be 512x512, got {img.size}"
-    for size in (16, 48, 128):
+    for size in (128,):
         out = img.resize((size, size), Image.LANCZOS)
         path = os.path.join(OUT_DIR, f"logo{size}.png")
         out.save(path)
